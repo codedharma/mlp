@@ -1,7 +1,7 @@
 ---
 title: "ML-Project"
 author: "Pratik Verma"
-date: "December 24, 2015"
+date: "December 25, 2015"
 output:
   html_document:
     theme: cerulean
@@ -25,7 +25,7 @@ library(reshape2)
 ```
 
 
-### Step 1  Cleaning Data:
+### Step 1 Cleaning Data:
 
 In this process elimination of features is done which may not be that relevant for learning algorithm. They might have the absence of values beyond a certain threshold.
 There are lot of columns in the training set having more than 97% of values as NA/null. Also it has columns like "user_name" and timestamps which do not provide relevant information. This step also helps us reduce dimensions of feature vector.
